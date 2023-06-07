@@ -1,10 +1,10 @@
 # hellServer
 
-https://hub.docker.com/repository/docker/nejern/my_hellserver/general
+https://hub.docker.com/r/nonemoff/exam_image
 
 ## Start
 
 ```
 docker build -t my_hellserver .
-docker run --rm -p 33333:33333 --name hall my_hallserver
+docker run --rm -p 33333:33333 --name server my_hallserver
 ```
